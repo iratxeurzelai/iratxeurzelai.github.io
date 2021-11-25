@@ -4,6 +4,7 @@
     --coal: #636363;
     --n-of-columns: 1;
   }
+
   
   *{
     box-sizing: border-box;
@@ -55,6 +56,8 @@
     grid-gap: 1em;
     box-shadow: var(--shadow);
   }
+
+  
   
   .single-column #tab-content{
     grid-template-columns: 1fr;
